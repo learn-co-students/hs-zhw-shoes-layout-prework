@@ -1,4 +1,32 @@
 /********** Fixes **********/
+#wood {
+
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #ccc;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+[class*="col-"] {
+  margin-left: 2%
+}
 
 * {
   margin:0;
@@ -22,6 +50,7 @@
   clear: both;
 }
 
+.first {
+  margin-left: 0%;
+}
 /* Posititoning Classes */
-
-
