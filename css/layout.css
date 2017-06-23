@@ -23,5 +23,47 @@
 }
 
 /* Posititoning Classes */
+.featured, #deals {
+  width: 100%;
+  margin-top: 20px;
+}
+section {
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+}
 
+section div {
+  background: white;
+  padding: 20px;
+}
 
+.col-1 {
+  float: left;
+  width: 31%;
+}
+
+.col-2 {
+  float: left;
+  width: 64%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+[class*="col-"]{
+  margin-right:2%;
+  background-color: white;
+}
+
+section:last-child {
+  margin-right: 0;
+}
+
+.milk_text {
+  margin-top: 15px;
+}
+
+#info section{
+  background: white
+}
