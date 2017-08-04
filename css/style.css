@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -113,6 +113,8 @@ iframe {
 .shadow {
 	box-shadow: 0 3px 10px #333;
 }
+
+
 
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
@@ -263,6 +265,48 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+
+section.wrapperfeatured {
+	padding: 0;
+	position: relative;
+	width: 100%;
+	visibility: hidden;
+}
+
+	.col-1 {
+		position: relative;
+		width: 66%;
+		height: 100%;
+		float: left;
+		visibility: visible;
+	}
+
+	.col-2 {
+		position: relative;
+		width: 32%;
+		height: 100%;
+		float: left;
+		visibility: visible;
+	}
+
+	[class*="col-"] {
+  	margin-left: 2%;
+		margin-bottom: 2%;
+	}
+
+	.first {
+  	margin-left: 0;
+	}
+
+	.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+	}
+
 
 /********** Details **********/
 
