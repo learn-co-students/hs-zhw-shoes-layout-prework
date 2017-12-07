@@ -34,10 +34,6 @@
   width: 66%;
 }
 
-.col-3 {
- background: #ccc;
-}
-
 [class*="col-"] {
   margin-left: 2%;
   margin-top: 2%;
@@ -45,8 +41,4 @@
 
 .first {
   margin-left: 0%;
-}
-
-.margin {
-  margin-bottom: 5px;
 }
