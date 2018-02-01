@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -114,6 +114,36 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+.right {
+	width: 30%;
+	float: right;
+}
+
+.left {
+	width: 65%;
+	float: left;
+}
+
+#shoe-one {
+	width: 30%;
+	float: left;
+	display: inline;
+}
+
+#shoe-two {
+	width: 30%;
+	float: left;
+	position: relative;
+	left: 50px;
+	display: inline;
+}
+
+#shoe-three {
+	width: 30%;
+	float: right;
+	display: inline;
+}
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
@@ -124,6 +154,26 @@ iframe {
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+}
+
+#col-one {
+	width: 30%;
+	display: inline;
+	float: left;
+}
+
+#col-two {
+	width: 30%;
+	display: inline;
+	float: left;
+	position: relative;
+	left: 15px;
+}
+
+#col-three {
+	width: 30%;
+	display: inline;
+	float: right;
 }
 
 .thumbs_up {
@@ -255,6 +305,7 @@ iframe {
 	/********** Sections **********/
 
 	section {
+		margin-bottom: 10px;
 		padding: 20px;
 		background: white;
 	}
