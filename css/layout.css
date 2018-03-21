@@ -24,4 +24,58 @@
 
 /* Posititoning Classes */
 
+.sale {
+  margin-bottom: 4%;
+}
 
+.brands {
+  float: left;
+  width: 73%;
+  margin-right: 2%;
+  margin-bottom: 4%;
+  height: 625px;
+
+}
+
+
+.archive {
+  float: right;
+  width: 25%;
+  margin-bottom: 4%;
+  height: 625px;
+
+}
+
+.l-bugs {
+  float: left;
+  width: 32.6%;
+  margin-right: 1%;
+
+}
+
+.skaters{
+  float: left;
+  width: 32.6%;
+  margin-right: 1%
+
+}
+
+.heels {
+  float: right;
+  width: 32.6%;
+}
+
+.contact {
+  float: left;
+  width: 32.6%;
+}
+
+.links {
+  float: left;
+  width: 32.6%;
+}
+
+.follow {
+  float: right;
+  width: 32.6%;
+}

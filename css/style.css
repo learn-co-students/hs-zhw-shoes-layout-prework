@@ -302,4 +302,9 @@ footer {
 		text-decoration: underline;
 	}
 
+	#brands {
+		display: block;
+		width: 60%;
+	}
+
 /* code examples copyright Jonathan Grover 2012 */
