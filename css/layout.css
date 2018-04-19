@@ -18,6 +18,12 @@
   line-height: 0;
 }
 
+#social {
+  border: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 .clear {
   clear: both;
 }
