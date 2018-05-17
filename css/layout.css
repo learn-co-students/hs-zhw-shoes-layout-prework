@@ -23,5 +23,45 @@
 }
 
 /* Posititoning Classes */
+/* Posititoning Classes */
+.shadow-1{
+  float: left;
+  width: 32%;
+}
 
+.shadow-2{
+  float: left;
+  width: 66%;
+}
+section{
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+[class*="shadow-"]{
+  margin-left: 2%;
+}
+
+/*anything with .first, set its left margin to 0% */
+.first{
+  margin-left: 0%;
+}
+
+#details div{
+  display: inline-block;
+}
+
+section#details{
+  padding: 20px 236px;
+}
+
+section#details div.wrapper div.border_right{
+  margin-right:10px;
+  padding-right: 118px;
+
+}
+
+section#details div.wrapper div.follow{
+  position: absolute;
+
+}
