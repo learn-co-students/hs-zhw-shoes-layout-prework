@@ -24,4 +24,25 @@
 
 /* Posititoning Classes */
 
+.one-third {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
 
+.two-thirds {
+  width: 66%;
+  float:left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.full {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
