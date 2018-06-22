@@ -11,7 +11,7 @@
 
 .clearfix:after {
   content: ".";
-  display: block;
+  display: table;
   clear: both;
   visibility: hidden;
   height: 0;
@@ -23,5 +23,72 @@
 }
 
 /* Posititoning Classes */
+.shadow.holiday {
+  float: left;
+  width: 100%;
+}
 
+.shadow.summer {
+  float: left;
+  width: 66%;
+  margin-right: 4%
+}
 
+.shadow.archive {
+  float: left;
+  width: 30%;
+}
+
+.featured_shoes {
+  margin-bottom: 2%;
+}
+
+.shadow.ladybug {
+  float: left;
+  width: 30.66%;
+  margin-right: 4%;
+  margin-top: 3%
+}
+
+.shadow.skate {
+  float: left;
+  width: 30.66%;
+  margin-right: 4%;
+  margin-top: 3%
+}
+
+.shadow.heel {
+  float: left;
+  width: 30.66%;
+  margin-top: 3%
+}
+
+.milk_text {
+  padding-top: 2%;
+}
+
+.contact_correspondence {
+  float: left;
+  width: 33.33%;
+}
+
+.links {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 2.4%
+}
+
+.follow {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 5.6%
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  line-height: 113%;
+}
