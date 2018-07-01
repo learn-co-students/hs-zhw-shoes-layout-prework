@@ -23,5 +23,19 @@
 }
 
 /* Posititoning Classes */
+.featured-row {
+  column-count: 2;
+}
 
+.featured-row section {
+  height: 575px;
+  margin-bottom: 20px;
+}
 
+.deals-row {
+  column-count: 3;
+}
+
+.footer-row {
+  column-count: 3;
+}
