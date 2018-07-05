@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  overflow: auto;
 }
 
 .clear {
@@ -24,4 +25,49 @@
 
 /* Posititoning Classes */
 
+/*.column-2 {
+  display: block;
+  float: left;
+  width: 48%;
+  height: inherit;
+  overflow: hidden;
+  margin: 6px;
+}*/
 
+.column-2, .column-3{
+  flex: 1;
+  padding: 1em;
+  margin: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+}
+
+#details {
+  margin-top: 3em;
+
+}
+
+/*.column-3 {
+  display: block;
+  width: 33.333%;
+  float: left;
+  overflow: hidden;
+}*/
+
+/*.col-2 {
+  column-count: 2;
+  column-gap: 20px;
+  column-width: 70px;
+  overflow: hidden:
+}
+
+.col-3 {
+  column-count: 3;
+  column-gap: 15px;
+  column-width: 50px;
+  overflow: hidden;
+}*/
