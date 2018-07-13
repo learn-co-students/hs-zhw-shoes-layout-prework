@@ -22,6 +22,29 @@
   clear: both;
 }
 
+.row {
+  overflow: hidden;
+}
+
+.row .smallContainer, .row .bigContainer {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.row div:last-child {
+  margin-right: 0;
+}
+
+.smallContainer {
+  width: 31.33333%;
+  margin-right: 3%;
+}
+
+.bigContainer {
+  width: 65.66666%;
+  margin-right: 3%;
+}
+
 /* Posititoning Classes */
 
 
