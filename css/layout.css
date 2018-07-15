@@ -22,6 +22,32 @@
   clear: both;
 }
 
+#deals {
++	margin-top: 20px;
++}
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-top: 20px;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  margin-top: 20px;
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+[class *= "col-"]{
+  margin-left: 2%;
+}
+
+.first{
+  margin-left: 0%;
+  clear: both;
+}
