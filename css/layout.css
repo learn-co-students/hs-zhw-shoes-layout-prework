@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+.temp {
+    margin-bottom: 1em;
+    clear: both;
+  }
 
+.temp:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/*.milk_test {
+  padding-top: 1em;
+}*/
+
+[class*="col-"] {
+  float: left;
+  margin-left: 1.05em;
+  margin-top: 1em;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-4 {
+  width: 19.25em;
+}
+.col-8 {
+  width: 39.5em;
+}
+
+#details {
+  /*float: left;*/
+}
