@@ -28,10 +28,10 @@
     float: left;
 }
 
-.left, .right {
-    width: 25%;
+.left, .middle {
+    width: 66%;
 }
 
-.middle {
+.right {
     width: 50%;
 }
