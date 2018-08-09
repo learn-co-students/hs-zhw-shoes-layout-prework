@@ -25,5 +25,5 @@
 /* Posititoning Classes */
 
 .container {
-  display: grid;
+  display: grid | inline-grid;
 }
