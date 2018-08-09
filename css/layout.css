@@ -38,7 +38,7 @@
 }
 
 .item2 {
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
