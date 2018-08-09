@@ -23,5 +23,38 @@
 }
 
 /* Posititoning Classes */
+#featured {
+  width: 65.58333333333334%;
+  float: left;
+  margin: 0 2.25% 0 0;
+}
+
+#archive {
+  width: 31.666666666666668%;
+  float: left;
+}
+
+.deals, .details_layout {
+  width: 31.666666666666668%; 
+  float: left;
+}
+
+.deals {
+  margin: 2.25% 2.25% 0 0;
+}
+
+.details_layout {
+  margin: 0 2.25% 0 0;
+}
+
+.no-margin-right {
+  margin-right: 0;
+}
+
+
+
+
+
+
 
 
