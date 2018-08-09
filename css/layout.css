@@ -45,6 +45,7 @@
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-color: white;
 }
 
 .item3 {
@@ -59,6 +60,7 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+  background-color: white;
 }
 
 .item5 {
@@ -66,4 +68,5 @@
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
+  background-color: white;
 }
