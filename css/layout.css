@@ -48,7 +48,7 @@
   display: grid;
   grid-template-areas:
     'header header header header menu menu'
-    'header header main main right right'
+    'header header header header menu right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
