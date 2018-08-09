@@ -40,9 +40,9 @@
   background-color: #2196F3;
   padding: 10px;
 }
+
 .grid-container > div {
   background-color: rgb(0,0,0);
   text-align: left;
   padding: 20px 0;
-  font-size: 30px;
 }
