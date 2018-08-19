@@ -35,9 +35,18 @@
 }
 
 .col-3 {
-  float: left;
+  float: right;
   width: 32%;
   background: #ccc;
 }
+/*
+[class*="col-"] {
+  margin-left: 2%;
+}*/
+
+.first {
+  margin-left: 0%;
+}
+
 
 /* Posititoning Classes */
