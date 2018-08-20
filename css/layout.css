@@ -8,8 +8,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
-.clearfix:after {
+ .clearfix:after {
   content: ".";
   display: block;
   clear: both;
@@ -17,11 +16,58 @@
   height: 0;
   line-height: 0;
 }
-
-.clear {
+ .clear {
   clear: both;
 }
+<<<<<<< HEAD
+ /* Posititoning Classes */
+   .col-1 {
+    float: left;
+    width: 32%;
+  }
+   .col-2 {
+    float: left;
+    width: 66%;
+  }
+   [class*="col-"] {
+    margin: 0 0 2% 2%;
+  }
+   .first {
+    margin: 0 0 2% 0;
+    clear: both;
+  }
+=======
+/*Layout*/
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+  background: #EEE;
+}
+.col-1-right{
+  float: left;
+  width: 32%;
+}
+.col-1-left{
+  float:right;
+  width: 32%;
+
+}
+.col-2-right {
+  float:right;
+  width: 66%;
+}
+.col-2-left {
+  float:left;
+  width: 66%;
+}
+
+.archive{
+  width: 25%;
+  float: right;
+}
+
 
 /* Posititoning Classes */
 
 
+>>>>>>> c55854b385d8cdb36c2156c2e0f2aca945fdc3e7
