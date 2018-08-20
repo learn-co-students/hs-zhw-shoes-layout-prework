@@ -19,6 +19,7 @@
  .clear {
   clear: both;
 }
+<<<<<<< HEAD
  /* Posititoning Classes */
    .col-1 {
     float: left;
@@ -35,3 +36,38 @@
     margin: 0 0 2% 0;
     clear: both;
   }
+=======
+/*Layout*/
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+  background: #EEE;
+}
+.col-1-right{
+  float: left;
+  width: 32%;
+}
+.col-1-left{
+  float:right;
+  width: 32%;
+
+}
+.col-2-right {
+  float:right;
+  width: 66%;
+}
+.col-2-left {
+  float:left;
+  width: 66%;
+}
+
+.archive{
+  width: 25%;
+  float: right;
+}
+
+
+/* Posititoning Classes */
+
+
+>>>>>>> c55854b385d8cdb36c2156c2e0f2aca945fdc3e7
