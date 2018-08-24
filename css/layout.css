@@ -23,5 +23,25 @@
 }
 
 /* Posititoning Classes */
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
 
+.flex-grid .col-2 {
+  flex: 8;
+}
+.flex-grid-thirds{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
 
+.flex-grid-thirds .col-2{
+  width:66%;
+}
