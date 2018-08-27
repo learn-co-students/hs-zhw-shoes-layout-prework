@@ -24,4 +24,45 @@
 
 /* Posititoning Classes */
 
+.row {
+    margin-top: 20px;
+    column-count: 3;
+}
 
+
+.col2 {
+    float:left;
+    width:66%;
+
+}
+
+
+.col1 {
+    float:right;
+    width:31%;
+    margin-left: 3%;
+}
+
+.col31 {
+    float:left;
+    width:31%;
+    margin-top: 2em;
+
+}
+
+.col32 {
+    float:left;
+    width:31%;
+    margin-top: 2em;
+    margin-left: 4%;
+    margin-bottom: 2em;
+
+}
+
+.col33 {
+    float:left;
+    width:31%;
+    margin-top: 2em;
+    margin-left: 3%;
+
+}
