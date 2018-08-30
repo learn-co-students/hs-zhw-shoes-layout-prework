@@ -24,4 +24,42 @@
 
 /* Posititoning Classes */
 
+.rightshadow {
+  float: right;
+  border: 1px solid;
+  width: 32%;
+  padding-bottom: 12px;
+}
 
+.leftshadow {
+  float: left;
+  border: 1px solid;
+  width: 66%;
+  margin: 0 2% 2% 0;
+}
+
+.cubes {
+  border: 1px solid;
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.lastcubes {
+  border: 1px solid;
+  float: left;
+  width: 32%;
+
+
+}
+
+.border_right {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.border_last {
+  float: left;
+  width: 32%;
+}
