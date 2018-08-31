@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.col-1 { /* this column will span one-third */
+  float: left; /* when we need columns to exist side by side */
+  width: 32%;
+  background-color: white;
+}
 
+.col-2 { /* this column will span two-thirds */
+  float: left;
+  width: 66%;
+  background-color: white;
+}
+
+.col-3 { /* this column will span all the entire wrapper */
+  background: white;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.shadow {
+  margin-top: 20px;
+}
