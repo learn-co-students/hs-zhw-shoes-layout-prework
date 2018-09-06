@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+	margin: 5px;
 }
 
 .milk_text {
@@ -301,5 +302,21 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+.flex-container {
+	display: flex;
+	padding: 5px;
+}
 
+.flex-grid-one-third {
+	display: flex;
+	width: 33%;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.flex-grid-two-thirds {
+	display: flex;
+	width: 66%;
+	flex-direction: column;
+}
 /* code examples copyright Jonathan Grover 2012 */
