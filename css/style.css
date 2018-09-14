@@ -301,5 +301,40 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+/*Second Section styling*/
 
-/* code examples copyright Jonathan Grover 2012 */
+ /*.shadow #col-1{
+	width: 65%;
+	float: left;
+}
+ .shadow #col-2{
+	width: 30%;
+	float: right;
+	margin-top: 0px;
+}*/
+#bottom{
+	column-count: 3;
+
+}
+#col-1,#col-2{
+	float:left;
+	width: 32%;
+	margin-left: 0%;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+#col-3{
+	float:left;
+	width: 32%;
+	margin-left: 0%;
+	margin-top: 2%;
+}
+#large {
+	float:left;
+	width: 66%;
+	margin-right:2%;
+}
+#small{
+	float:left;
+	width: 32%;
+}
