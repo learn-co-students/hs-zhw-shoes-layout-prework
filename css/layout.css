@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+#sale{
+  float: right;
+  width: 32%;
+}
+#mainImg {
+  float: left;
+  width: 66%;
+}
 
+.container {
+  width: 930px;
+  
+}
+
+
+#one{
+  float: left;
+  width: 30%;
+  margin: 10px;
+}
+
+#two{
+float: left;
+  width: 30%;
+margin: 10px;
+}
+
+#three{
+ float: left;
+  width: 30%;
+ margin: 10px;
+}
