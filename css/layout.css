@@ -24,4 +24,21 @@
 
 /* Posititoning Classes */
 
+ .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
+  
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+
+  .col-4 { width: 40%; }
+  .col-8 { width: 80%; }
 
