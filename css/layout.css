@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+/* 66% + 32% + 2% = 100% */
+.col-2 {
+  float: left;
+  width: 66%; 
+}
+
+/*full width*/
+.col-3 {
+  width: 100%; 
+}
+
+/* for classes that include 'col'*/
+[class*= "col-"] {
+  margin-left: 2%;
+}
+ 
+.first {
+  margin-left: 0%;
+}
+
+.deals {
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
