@@ -24,4 +24,49 @@
 
 /* Posititoning Classes */
 
+#logo { display: block; }
+
+h2.milk_text {
+  margin: 18px 0 10px 0;
+}
+
+.shadow.main p {
+  margin: 0 0 24px;
+}
+
+.shadow { display: inline-block; }
+
+.main {
+  float: left;
+  width: 66%;
+}
+
+.side {
+  float: right;
+  width: 22%;
+}
+
+.shoes, #details {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: none;
+}
+
+#details {
+  width: 100%;
+}
+
+.shoes section, .footer-column {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.shoes section:last-child, .footer-column:last-child {
+  margin-right: 0;
+}
+
 
