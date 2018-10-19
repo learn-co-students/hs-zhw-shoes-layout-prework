@@ -24,4 +24,5 @@
 
 /* Posititoning Classes */
 
-
+.col-1{width:64%;float:left;overflow:hidden;margin:10px}
+.col-2{display:inline-block;width:31%;float:left;margin:10px}
