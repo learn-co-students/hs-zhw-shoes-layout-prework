@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+#wood .wrapper  {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.milk_text {
+  display: inline-block;
+  flex-grow: 1;
+  padding: 5px;
+  width: 100%;
+}
+
+.brand {
+    flex: 1 0 60%;
+    margin: 0px;
+}
+
+.archive {
+    flex: 1 0 24%;
+    margin-left: 20px;
+}
+
+.deal {
+  flex: 1 0 24%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#details .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
