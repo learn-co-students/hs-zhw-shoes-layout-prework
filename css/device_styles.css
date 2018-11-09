@@ -20,10 +20,12 @@
 		top: 100px;
 		right: 5%;
 		width: auto;
+
 	}
 
 	#social a {
 		display: inline-block;
+		
 	}
 
 }
@@ -149,7 +151,7 @@
 	*, h1, h2, h3, h4, h5, h6, p, a, section, div, table {
 		color: black;
 	}
-	
+
 }
 
 /* code examples copyright Jonathan Grover 2012 */
