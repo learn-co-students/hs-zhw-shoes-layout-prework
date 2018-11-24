@@ -25,3 +25,50 @@
 /* Posititoning Classes */
 
 
+.col-1{
+  float:left;
+  width: 32%;
+  padding-bottom: 5%;
+}
+.col-2{
+  float:left;
+  width:62%;
+
+}
+[class *="col-"]{
+  margin-left: 2%;
+}
+.col-3{
+  float: left;
+  width: 31%;
+
+}
+.col-4{
+  float: left;
+  width: 31%;
+
+}
+.col-5{
+  float: left;
+  width: 31%;
+
+}
+
+.first{
+  margin-left: 0%;
+}
+
+.col-6{
+  float: left;
+  width: 31%;
+
+}
+.col-7{
+  float: left;
+  width: 31%;
+
+}.col-8{
+  float: left;
+  width: 31%;
+
+}
