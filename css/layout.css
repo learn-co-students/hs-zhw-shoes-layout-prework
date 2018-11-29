@@ -24,4 +24,17 @@
 
 /* Posititoning Classes */
 
+.container {
+margin-bottom: 10px;
+}
 
+.span_2_columns {
+  width: 630px;
+  float: left;
+  margin-right: 10px;
+}
+.span_1_column {
+  width: 310px;
+  float: left;
+  margin-right: 10px;
+}
