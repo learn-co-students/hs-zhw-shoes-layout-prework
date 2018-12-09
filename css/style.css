@@ -118,12 +118,13 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 20px 0 10px;
 }
 
 .border_right {
+	display: inline-block;
 	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	padding: 0 20px 0 5px;
 }
 
 .thumbs_up {
@@ -132,6 +133,38 @@ iframe {
 
 .contact_form {
 	height: 415px;
+}
+
+/************ Section Styles ***********/
+
+.featured-brands {
+	grid-area: featured-brands;
+}
+
+.archive-list {
+	grid-area: archive-list;
+}
+
+.row-1 {
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-areas: "featured-brands featured-brands archive-list";
+	margin-bottom: 20px;
+}
+
+.row-2 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.row-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	
+	
 }
 
 /********** Header **********/
@@ -248,7 +281,6 @@ iframe {
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
 	background-position: center top, left top;
-	background-repeat: no-repeat, repeat-y;
 	padding: 30px 0;
 }
 
