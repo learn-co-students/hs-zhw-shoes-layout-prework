@@ -1,5 +1,4 @@
 
-
 # ZHW Shoes Layout
 
 You've been hired as a developer to write the code for a shoes website. The company has provided a spec for what the site should look like in `MOCKUP.jpg`. You'll want to open up `index.html` in the browser to check the changes you're making.
