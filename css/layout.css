@@ -23,5 +23,22 @@
 }
 
 /* Posititoning Classes */
+.column-third {
+  float:left;
+  width: 32%;
+  margin-left: 2%;
+}
 
+.column-two-thirds {
+  float:left;
+  width: 66%;
+  margin-left: 2%;
+}
 
+.first {
+  margin-left:0%;
+}
+
+.shoes {
+  margin-top:2%;
+}
