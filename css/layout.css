@@ -24,4 +24,29 @@
 
 /* Posititoning Classes */
 
+.column {
+  float: left;
+  width: 31%;
+  padding: 20px;
+  margin: 1%;
+}
 
+.big {
+  width: 64%;
+  height: 100%;
+  padding: 10px;
+}
+
+.biggest {
+  width: 98%;
+  padding: 10px;
+  margin-left: 0;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.archive {
+  height: 574.92px;
+}
