@@ -47,5 +47,9 @@
     margin-left: 0;
   }
 
-  .col-4 { width: 32%; }
-  .col-8 { width: 66%; }
+  .col-4 {
+    width: 32%;
+  }
+  .col-8 {
+    width: 66%;
+  }
