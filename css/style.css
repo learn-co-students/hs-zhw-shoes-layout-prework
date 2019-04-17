@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -50,23 +50,28 @@ figure {
 
 table {
 	margin: 0 0 20px;
-	border-top: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	/*border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;*/
 }
 
-tr:nth-child(even) {
+/*tr:nth-child(even) {
 	background: #efefef;
-}
+}*/
 
 th, td {
 	padding: 10px;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	/*border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
 }
 
 th {
 	background: #555;
 	color: white;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
 }
 
 input, textarea {
@@ -118,7 +123,7 @@ iframe {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 
 .border_right {
