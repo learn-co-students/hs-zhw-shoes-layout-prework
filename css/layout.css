@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  margin-bottom: 2%;
 }
 
 .clear {
@@ -25,3 +26,26 @@
 /* Posititoning Classes */
 
 
+.col-1 {
+  float:left;
+  width: 30%;
+  background: #fff;
+}
+
+.col-2 {
+  float:left;
+  width: 62%;
+  background: #fff;
+}
+.col-3 {
+  width:94%;
+  background: #fff;
+}
+
+[class*="col-"]{
+  margin-left: 2%;
+}
+
+.first{
+  margin-left: 0;
+}
