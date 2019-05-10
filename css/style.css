@@ -1,21 +1,15 @@
-/********** Web Fonts **********/
-@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
 
-/* prevent the verify image on contact page from stretching */
 img.verif_img {
 	width: 50px;
 	height:30px;
 	vertical-align: bottom;
 }
-
-/********** Global **********/
 
 body {
 	background: url(../images/handmadepaper.png);
@@ -42,11 +36,11 @@ figure {
 	margin:0 0 10px;
 }
 
-	figcaption {
+figcaption {
 		font: 12px 'Elsie Swash Caps', cursive;
 		color: #777;
 		text-align: right;
-	}
+}
 
 table {
 	margin: 0 0 20px;
@@ -134,11 +128,7 @@ iframe {
 	height: 415px;
 }
 
-/********** Header **********/
-
-	/********** Nav Bar **********/
-
-	#nav_bar {
+#nav_bar {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -149,11 +139,11 @@ iframe {
 		text-align: center;
 	}
 
-	#nav_bar nav {
+#nav_bar nav {
 		border-left: 1px solid #ccc;
 	}
 
-		#nav_bar nav a {
+#nav_bar nav a {
 			display: inline-block;
 			width: 20%;
 			margin: 0;
@@ -166,12 +156,12 @@ iframe {
 			font: 20px "Trebuchet MS", Arial, sans-serif;
 		}
 
-		#nav_bar nav a.selected {
+#nav_bar nav a.selected {
 			background: black;
 			color: white;
 		}
 
-		#nav_bar nav a:hover {
+#nav_bar nav a:hover {
 			color:white;
 			/* gradient */
 			background: rgb(0,0,0); /* Old browsers */
@@ -183,9 +173,7 @@ iframe {
 			background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
 		}
 
-	/********** Logo **********/
-
-	#logo {
+#logo {
 		padding: 85px 0 25px;
 		/* gradient */
 		background: rgb(229,229,229); /* Old browsers */
@@ -197,7 +185,7 @@ iframe {
 		background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
 	}
 
-		#logo h1 {
+#logo h1 {
 			margin: 0;
 			padding-top: 20px;
 			display: inline-block;
@@ -205,13 +193,11 @@ iframe {
 			background: url(../images/logo_crown_emboss.png) no-repeat top center;
 		}
 
-		#logo h2 {
+#logo h2 {
 			margin:0;
 			display: inline-block;
 			font-family: 'Elsie Swash Caps', cursive;
 		}
-
-/********** Social Bar **********/
 
 #social {
 	position: fixed;
@@ -221,7 +207,7 @@ iframe {
 	z-index: 1;
 }
 
-	a.fbook, a.twitt, a.gplus {
+a.fbook, a.twitt, a.gplus {
 		display: block;
 		width: 40px;
 		height: 40px;
@@ -243,8 +229,6 @@ iframe {
 	a.gplus:hover { background-position: -40px -80px; }
 	a.gplus:active { background-position: -80px -80px; }
 
-/********** Content Area **********/
-
 #wood {
 	background-image: url(../images/wood.jpg), url(../images/wood_slice.jpg);
 	background-position: center top, left top;
@@ -252,19 +236,15 @@ iframe {
 	padding: 30px 0;
 }
 
-	/********** Sections **********/
-
-	section {
+section {
 		padding: 20px;
 		background: white;
 	}
 
-	section a {
+section a {
 		color: #555;
 		text-decoration: underline;
 	}
-
-/********** Details **********/
 
 #details {
 	clear:both;
@@ -279,16 +259,14 @@ iframe {
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
 }
 
-	#details a:link, #details a:visited {
+#details a:link, #details a:visited {
 		color: black;
 		text-decoration: none;
 	}
 
-	#details a:hover, #details a:active {
+#details a:hover, #details a:active {
 		text-decoration: underline;
 	}
-
-/********** Footer **********/
 
 footer {
 	text-align: center;
@@ -297,9 +275,7 @@ footer {
 	padding: 10px 0 20px;
 }
 
-	footer a {
+footer a {
 		color: #555;
 		text-decoration: underline;
 	}
-
-/* code examples copyright Jonathan Grover 2012 */
