@@ -16,6 +16,9 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  background: black;
+  overflow: auto;
+
 }
 
 .clear {
@@ -24,4 +27,30 @@
 
 /* Posititoning Classes */
 
+.col-3 {
+  float: left;
+  width: 100%;
 
+  margin-bottom: 5%;
+}
+.col-2 {
+  float: left;
+  width: 66%;
+  margin-left: 0%;
+  margin-bottom: 5%;
+}
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+
+}
+.first{
+  margin-left: 0%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
