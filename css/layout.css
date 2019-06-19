@@ -27,7 +27,7 @@
 
 /* Posititoning Classes */
 
-.col-3 {
+/*.col-3 {
   float: left;
   width: 100%;
 
@@ -48,9 +48,57 @@
 }
 .first{
   margin-left: 0%;
-}
+}*/
 
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+/*.tableContainer {
+  display:table;
+  border-spacing: 0px;
+}
+
+.tableRow {
+  display: table-row;
+
+}*/
+
+.table-cell-3 {
+  width: 100%;
+  vertical-align: top;
+  float: left;
+
+}
+.table-cell-2 {
+  width: 66%;
+  vertical-align: top;
+  float: left;
+  margin-right: 1%;
+}
+
+.table-cell-1 {
+  vertical-align: top;
+  float: left;
+  width: 32%;
+  margin-right: 0.5%;
+}
+.table-cell-1-last {
+  vertical-align: top;
+  float: left;
+  width: 32%;
+}
+
+.table-cell-13 {
+  width: 33.33%;
+  vertical-align: top;
+  float: left;
+
+
+}
+.wrapper {
+  content: "";
+  display: table;
+  clear: both;
 }
