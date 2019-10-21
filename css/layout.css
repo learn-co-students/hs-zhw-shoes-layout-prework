@@ -24,4 +24,39 @@
 
 /* Posititoning Classes */
 
+.white-box {
+  /*background: white;*/
+}
+
+.featured-brand {
+  float: left;
+  max-width: 66%;
+  margin: 0 17px 10px 0;
+}
+
+.archive {
+  float: left;
+  width: 32%;
+  margin: 0 0 17px 0;
+}
+
+.col-end-left {
+  float: left;
+  max-width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-end-right {
+  float: left;
+  max-width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-middle {
+  float: left;
+  max-width: 32%;
+  margin: 10px 17px 0 17px;
+}
+
+
 
