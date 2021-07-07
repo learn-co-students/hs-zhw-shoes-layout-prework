@@ -7,6 +7,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+
 }
 
 .clearfix:after {
@@ -23,5 +24,86 @@
 }
 
 /* Posititoning Classes */
+ .first_shoe {
+  display: block;
+  float: left;
+  width: 66%;
+  length: 100%;
+  margin: 0 2% 20px 0;
+  border: 10px;
+
+}
+
+ .calendar {
+   float: right;
+   display: block;
+   margin: 0 0 20px 0;
+   border: 10px;
+  width: 32%;
+  length: 100%;
+
+}
 
 
+
+
+.three_shoes {
+  display: block;
+
+
+}
+
+.Column {
+    display: table-cell;
+}
+
+.shadow {
+   0 3px 10px #333
+}
+
+.section {
+  padding: 20px;
+
+
+}
+.first_part {
+  width: 100%;
+}
+
+
+
+#lady_bug {
+  float: left;
+  width: 32%;
+  margin-top: 2%;
+}
+
+#heel {
+  float: right;
+  width: 32%;
+  margin-top: 2%;
+}
+
+
+.border_right {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  margin-top: 2%;
+
+}
+
+.col_mid {
+  float: left;
+  width: 32%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+     /*margin: 0 2% 20px 1%;*/
+}
+
+.col_right {
+  float: left;
+  margin-top: 2%;
+}
